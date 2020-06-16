@@ -1,0 +1,7 @@
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.138\bin\Debug\C.NET FRAMEWORK COURSE pg.138.exe.config
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.138\bin\Debug\C.NET FRAMEWORK COURSE pg.138.exe
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.138\bin\Debug\C.NET FRAMEWORK COURSE pg.138.pdb
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.138\obj\Debug\C.NET FRAMEWORK COURSE pg.138.csprojAssemblyReference.cache
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.138\obj\Debug\C.NET FRAMEWORK COURSE pg.138.csproj.CoreCompileInputs.cache
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.138\obj\Debug\C.NET FRAMEWORK COURSE pg.138.exe
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.138\obj\Debug\C.NET FRAMEWORK COURSE pg.138.pdb
