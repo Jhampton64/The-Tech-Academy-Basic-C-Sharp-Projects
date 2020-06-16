@@ -8,24 +8,24 @@ namespace C.NET_FRAMEWORK_COURSE_152
 {
     class mathOps
     {
-        public static int addTwo(int inputInt)
+        public static int addFive(int inputInt)
         {
-            return inputInt + 2;
+            return inputInt + 5;
         }
 
-        public static int subtractFive(int inputInt)
+        public static int subtractThree(int inputInt)
         {
-            return inputInt - 5;
+            return inputInt - 3;
         }
 
-        public static int timesThree(int inputInt)
+        public static int timesEight(int inputInt)
         {
-            return inputInt * 3;
+            return inputInt * 8;
         }
 
-        public static int moduloFour(int inputInt)
+        public static int moduloTwo(int inputInt)
         {
-            return inputInt % 4;
+            return inputInt % 2;
         }
 
 
