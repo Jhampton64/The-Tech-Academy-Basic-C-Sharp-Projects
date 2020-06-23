@@ -1,0 +1,2 @@
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C .NET FRAMEWORK COURSE pg.210\obj\Debug\C .NET FRAMEWORK COURSE pg.210.csprojAssemblyReference.cache
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C .NET FRAMEWORK COURSE pg.210\obj\Debug\C .NET FRAMEWORK COURSE pg.210.csproj.CoreCompileInputs.cache

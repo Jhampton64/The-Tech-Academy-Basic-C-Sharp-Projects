@@ -1,0 +1,6 @@
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.191\bin\Debug\C.NET FRAMEWORK COURSE pg.191.exe.config
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.191\bin\Debug\C.NET FRAMEWORK COURSE pg.191.exe
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.191\bin\Debug\C.NET FRAMEWORK COURSE pg.191.pdb
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.191\obj\Debug\C.NET FRAMEWORK COURSE pg.191.csproj.CoreCompileInputs.cache
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.191\obj\Debug\C.NET FRAMEWORK COURSE pg.191.exe
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.191\obj\Debug\C.NET FRAMEWORK COURSE pg.191.pdb
