@@ -99,22 +99,24 @@ namespace C.NET_FRAMEWORK_COURSE_pg._138
 
             Console.WriteLine("Duplicates identified");
 
-           
 
-            for (int i = 0; i < REList.Count; i++)
+
+            List<string> duplicated = new List<string>();
+
+            foreach (string item in REList)
             {
-                if (REList.LastIndexOf(REList[i]) >= i && REList.IndexOf(REList[i]) == i)
+                if (!duplicated.Contains(item))
                 {
-                    Console.WriteLine(REList[i] + " (original)");
+                    duplicated.Add(item);
+                    Console.WriteLine(item);
                 }
                 else
                 {
-                    Console.WriteLine(REList[i] + " (duplicate)");
+                    Console.WriteLine(item);
                 }
             }
 
-
-            Console.ReadLine();
+                     Console.ReadLine();
         }
     }
 }

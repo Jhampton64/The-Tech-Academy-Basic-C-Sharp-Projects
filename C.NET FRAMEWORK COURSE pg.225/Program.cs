@@ -10,33 +10,28 @@ namespace C.NET_FRAMEWORK_COURSE_pg._225
     {
         static void Main(string[] args)
         {
-            bool validAnswer = false;
-            int age = 0;
-            while (!validAnswer)
+            uint age;
+
+            try
             {
-                try
-                {
-                    Console.WriteLine("How old are you?");
-                    validAnswer = int.TryParse(Console.ReadLine(), out age);
-                    if (!validAnswer) Console.WriteLine("Digits only, no decimals.");
-                    else
-                    {
-                        DateTime now = DateTime.Now;
-                        int year = now.Year;
-                        int birthYear = year - age;
-                        Console.WriteLine("You were born in " + birthYear);
-                        Console.ReadLine();
-                    }
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine("Invalid.");
-                    Console.ReadLine();
-                    return;
-                }
+                Console.WriteLine("Please tell me your current age.");
+                if (!uint.TryParse(Console.ReadLine(), out age)) throw new ArgumentOutOfRangeException();
+
+                Console.WriteLine("So you where born in {0}",
+                    DateTime.Now.Date.AddYears((int)(-1 * age)).Year);
             }
-
-
+            catch (ArgumentOutOfRangeException)
+            {
+                Console.WriteLine("zero or negative numbers not allowed!");
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Can't process that information.");
+            }
+            finally
+            {
+                Console.ReadLine();
+            }
         }
     }
 }
