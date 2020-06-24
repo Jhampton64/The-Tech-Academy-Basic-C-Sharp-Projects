@@ -32,24 +32,24 @@ namespace C.NET_FRAMEWORK_COURSE_pg._194
             employeesList.Add(new Employee()
             { FirstName = "Bob", LastName = "Smith", ID = 10 });
 
-
-
             foreach (var Employee in employeesList)
             {
                 List<Employee> joeList = new List<Employee>();
                 if (Employee.FirstName == "Joe")
                 {
                     joeList.Add(Employee);
+                    Console.WriteLine(Employee.FirstName + " " + Employee.LastName);
                 }
             }
 
             List<Employee> joes = employeesList.Where(x => x.FirstName == "Joe").ToList();
 
             List<Employee> ids = employeesList.Where(x => x.ID > 5).ToList();
-            
+
+            Console.ReadLine();
         }
 
-
+        
         
 
     }

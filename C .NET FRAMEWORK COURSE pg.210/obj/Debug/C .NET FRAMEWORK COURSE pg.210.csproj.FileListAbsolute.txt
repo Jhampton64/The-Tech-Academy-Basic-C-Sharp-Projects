@@ -1,2 +1,7 @@
 C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C .NET FRAMEWORK COURSE pg.210\obj\Debug\C .NET FRAMEWORK COURSE pg.210.csprojAssemblyReference.cache
 C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C .NET FRAMEWORK COURSE pg.210\obj\Debug\C .NET FRAMEWORK COURSE pg.210.csproj.CoreCompileInputs.cache
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C .NET FRAMEWORK COURSE pg.210\bin\Debug\C.NET_FRAMEWORK_COURSE_pg._210.exe.config
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C .NET FRAMEWORK COURSE pg.210\bin\Debug\C.NET_FRAMEWORK_COURSE_pg._210.exe
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C .NET FRAMEWORK COURSE pg.210\bin\Debug\C.NET_FRAMEWORK_COURSE_pg._210.pdb
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C .NET FRAMEWORK COURSE pg.210\obj\Debug\C.NET_FRAMEWORK_COURSE_pg._210.exe
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C .NET FRAMEWORK COURSE pg.210\obj\Debug\C.NET_FRAMEWORK_COURSE_pg._210.pdb

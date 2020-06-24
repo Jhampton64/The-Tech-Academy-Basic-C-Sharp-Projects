@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace C.NET_FRAMEWORK_COURSE_pg._210
+namespace FileIO
 {
     class Program
     {
@@ -13,10 +13,10 @@ namespace C.NET_FRAMEWORK_COURSE_pg._210
         {
             Console.WriteLine("Please enter a number.");
             string number = Console.ReadLine();
-            File.WriteAllText(@"C:\Users\Matt\number.txt", number);
+            File.WriteAllText(@"fileio", number);
             Console.WriteLine("You selected " + number);
             Console.ReadLine();
-            File.ReadAllText(@"C:\Users\Matt\number.txt");
+            File.ReadAllText(@"fileio");
         }
     }
 }
