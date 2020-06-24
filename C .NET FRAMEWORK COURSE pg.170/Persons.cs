@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C.NET_FRAMEWORK_COURSE_pg._173
+namespace C.NET_FRAMEWORK_COURSE_pg._170
 {
     public abstract class Person
     {

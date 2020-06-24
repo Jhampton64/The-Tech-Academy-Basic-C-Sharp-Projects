@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B04FB633-9FC0-4DA3-8833-E3576878C8F0}</ProjectGuid>
+    <ProjectGuid>{FFD80527-C9A5-478A-A5AE-32388835D6B3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>C.NET_FRAMEWORK_COURSE_pg._170</RootNamespace>
-    <AssemblyName>C.NET_FRAMEWORK_COURSE_pg._170</AssemblyName>
+    <RootNamespace>C.NET_FRAMEWORK_COURSE_pg._330</RootNamespace>
+    <AssemblyName>C.NET FRAMEWORK COURSE pg.330</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Persons.cs" />
-    <Compile Include="Employee.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

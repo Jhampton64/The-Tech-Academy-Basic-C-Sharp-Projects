@@ -4,17 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C.NET_FRAMEWORK_COURSE_PG._173
+namespace C.NET_FRAMEWORK_COURSE_pg._173
 {
-    class Employee
+    public class Employee : Person, IQuittable
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-
-        public void SayName()
+        public void Quit()
         {
-            Console.WriteLine("Name: " + FirstName + " " + LastName);
+            IQuittable quittable = new Employee();
+            Console.WriteLine("QUIT");
             Console.ReadLine();
         }
     }
-}
+} 
