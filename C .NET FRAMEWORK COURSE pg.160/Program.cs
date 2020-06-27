@@ -8,11 +8,23 @@ namespace C.NET_FRAMEWORK_COURSE_pg._160
 {
     class Program
     {
-        public static void Main()
+        static void Main(string[] args)
         {
-            Console.WriteLine("Please input a whole number.");
-            int input = Convert.ToInt32(Console.ReadLine());
-            Method.Divide(input);
+            Console.WriteLine("Please input a number");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b;
+            MathOperation n = new MathOperation();
+            n.division(a);
+            Console.ReadLine();
+
+            n.multiplication(out b);
+            Console.ReadLine();
+
+            n.multiplication(out a, out b);
+            Console.ReadLine();
+
+            StaticExample.SampleStaticMethod();
+            Console.ReadLine();
         }
     }
 }

@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace C.NET_FRAMEWORK_COURSE_pg._155
 {
-
-
     class Program
     {
-        public static void Main()
+        static void Main(string[] args)
         {
-            Console.WriteLine("Please input a whole number.");
-            int input = Convert.ToInt32(Console.ReadLine());
-            Method.Divide(input);
+            int a = 100;
+            int b = 101;
+
+            MathOperation n = new MathOperation();
+
+            n.pickOne(a, b);
+            n.pickOne(num2: b, num1: a);
+            Console.ReadLine();
         }
     }
-    
-            }
-        
-    
-
+}

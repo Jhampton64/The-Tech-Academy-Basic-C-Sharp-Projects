@@ -4,26 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace C.NET_FRAMEWORK_COURSE_pg._156
 {
     class Program
     {
-        public static void Main()
+        static void Main(string[] args)
         {
-            int num1 = 3;
-            int num2 = 5;
-            Number.Drill(num1, num2);
-        }
-    }
-    class Number
-    {
-        public static void Drill(int parameter1, int parameter2)
-        {
-            int answer = parameter1 + 1;
-            Console.WriteLine(answer);
-            Console.WriteLine(parameter2);
+            int a = 12;
+            decimal b = 9.9m;
+            string c = "13";
+            int total;
+            MathOperation n = new MathOperation();
+            total = n.Sum(a);
+            Console.WriteLine("The sum of " + a + " and " + "25" + " is " + total);
+            total = n.Difference(b);
+            Console.WriteLine("The difference of " + b + " and " + "8" + " is " + total);
+            total = n.Product(c);
+            Console.WriteLine("The product of " + c + " and " + "10" + " is " + total);
             Console.ReadLine();
         }
-
     }
 }
