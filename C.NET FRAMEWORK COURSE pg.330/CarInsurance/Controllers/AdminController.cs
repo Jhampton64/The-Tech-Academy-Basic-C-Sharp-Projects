@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using CarInsurance;
 
 namespace CarInsurance.Controllers
 {
     public class AdminController : Controller
     {
-        private CarInsuranceEntities db = new CarInsuranceEntities();
+        private CarInsuranceEntities4 db = new CarInsuranceEntities4();
 
         // GET: Admin
         public ActionResult Index()

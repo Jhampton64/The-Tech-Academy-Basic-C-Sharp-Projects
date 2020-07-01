@@ -1,8 +1,5 @@
 ﻿using CarInsurance.ViewModel;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace CarInsurance.Controllers
@@ -18,7 +15,7 @@ namespace CarInsurance.Controllers
         public ActionResult SignUp(string firstName, string lastName, string emailAddress, DateTime dateOfBirth, int carYear, string carMake, string carModel, string dUI, int speedingTickets, int fullCoverageLiability)
         {
             decimal quoteTotal = 50;// start with a base of $50 
-            using (CarInsuranceEntities db = new CarInsuranceEntities())// instantiate the partial class, allow objects to access the database
+            using (CarInsuranceEntities4 db = new CarInsuranceEntities4())// instantiate the partial class, allow objects to access the database
             {
                 var signup = new CarSignUp();//new object from partial class === why?
 
@@ -30,7 +27,7 @@ namespace CarInsurance.Controllers
                 //============== code intentions ============
                 //> obtain exact age then compare it with system date using month day and year
                 //e.g. DOB = 5/5/1995. Today = 5/4/2019. age = 24 but they are 23 years old not 24.
-                
+
                 //DateTime now = DateTime.Today
                 //int age = now.Year - dateOfBirth.Year;
 
@@ -85,7 +82,7 @@ namespace CarInsurance.Controllers
                     speedingTickets *= 10;
                     quoteTotal += speedingTickets;
                 }
-                
+
                 //DUI add 10%
                 if (dUI.ToLower().Contains("yes"))// if yes pending total is nulyiply by 0.25
                 {
@@ -98,7 +95,7 @@ namespace CarInsurance.Controllers
                 }
 
                 //Full coverage or liability
-                if (fullCoverageLiability == 1 )
+                if (fullCoverageLiability == 1)
                 {
                     decimal fullCoverage = quoteTotal * 0.50m;
                     quoteTotal += fullCoverage;
@@ -120,7 +117,7 @@ namespace CarInsurance.Controllers
                 signup.SpeedingTickets = speedingTickets;
                 signup.FullCoverageLiability = fullCoverageLiability;
                 signup.Quotes = quoteTotal;
-               
+
 
                 db.CarSignUps.Add(signup);//pass signup object 
                 db.SaveChanges();
