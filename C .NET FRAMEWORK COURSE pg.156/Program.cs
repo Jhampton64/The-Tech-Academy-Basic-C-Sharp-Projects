@@ -4,30 +4,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace C.NET_FRAMEWORK_COURSE_pg._156
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Number(int num1, int num2)
         {
-            int a = 12;
-            decimal b = 9.9m;
-            string c = "13";
-            int total;
-            MathOperation n = new MathOperation();
-            total = n.Sum(a);
-            Console.WriteLine("The sum of " + a + " and " + "25" + " is " + total);
-            total = n.Difference(b);
-            Console.WriteLine("The difference of " + b + " and " + "8" + " is " + total);
-            total = n.Product(c);
-            Console.WriteLine("The product of " + c + " and " + "10" + " is " + total);
+            Console.WriteLine("Please enter a Whole Number.");
+            int inputNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(inputNum + num1);
+
+            Console.WriteLine("Please enter a Whole Number.");
+            string inputNum2 = Convert.ToString(Console.ReadLine());
+            if(inputNum2 == string.Empty)
+            {
+                Console.WriteLine("No number, No problem!");
+                Console.ReadLine();
+
+            }
+            else
+            {
+                int x = Int32.Parse(inputNum2);
+                Console.WriteLine(x + num2);
+               
+            }
+
             Console.ReadLine();
         }
+
+        static void Main(string[] args)
+        {
+            Number(10, 5);
+            
+        }
+
     }
 }
+

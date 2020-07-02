@@ -1,0 +1,7 @@
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.157\bin\Debug\C.NET FRAMEWORK COURSE pg.157.exe.config
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.157\bin\Debug\C.NET FRAMEWORK COURSE pg.157.exe
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.157\bin\Debug\C.NET FRAMEWORK COURSE pg.157.pdb
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.157\obj\Debug\C.NET FRAMEWORK COURSE pg.157.csprojAssemblyReference.cache
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.157\obj\Debug\C.NET FRAMEWORK COURSE pg.157.csproj.CoreCompileInputs.cache
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.157\obj\Debug\C.NET FRAMEWORK COURSE pg.157.exe
+C:\Users\jhamp\Desktop\Git java\The-Tech-Academy-Basic-C-Sharp-Projects\C.NET FRAMEWORK COURSE pg.157\obj\Debug\C.NET FRAMEWORK COURSE pg.157.pdb

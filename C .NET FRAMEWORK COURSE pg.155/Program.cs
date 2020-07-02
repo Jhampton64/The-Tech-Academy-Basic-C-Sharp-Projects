@@ -6,18 +6,30 @@ using System.Threading.Tasks;
 
 namespace C.NET_FRAMEWORK_COURSE_pg._155
 {
-    class Program
+    class Operation
     {
+        static void OP(int num1, decimal dec2, string str3)
+        {
+            Console.WriteLine("Please enter a Whole Number to add to 12.");
+            int inputNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(inputNum+num1);
+            Console.WriteLine("Please enter another Whole Number to add to 17.4.");
+            decimal inputdec = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(inputdec+dec2);
+            Console.WriteLine("Now let me guess your aura color.");
+            string inputstr = Convert.ToString(Console.ReadLine());
+            Console.WriteLine(inputstr +"?"+  " I would have guessed " + str3+".");
+
+
+            Console.ReadLine();
+        }
+
         static void Main(string[] args)
         {
-            int a = 100;
-            int b = 101;
-
-            MathOperation n = new MathOperation();
-
-            n.pickOne(a, b);
-            n.pickOne(num2: b, num1: a);
-            Console.ReadLine();
+            OP(12,17.4m,"Orange");
+           
         }
     }
 }
+
+    

@@ -65,14 +65,14 @@ namespace C.NET_FRAMEWORK_COURSE_pg._138
            
             Console.WriteLine("For the following names, you may enter text to search for.");
             List<string> REList = new List<string>
-            {"Chris", "Jill","Leon","Clair", "Ada"};
+            {"Chris", "Jill","Leon","Clair","Jill", "Ada"};
 
             for (int j = 0; j < REList.Count; j++)
             {
                 Console.WriteLine(REList[j]);
             }
 
-            Console.WriteLine("Enter the text you wish to search for:");
+            
             List<int> foundIndices = new List<int>();
             string searchString = Console.ReadLine();
 
@@ -97,26 +97,13 @@ namespace C.NET_FRAMEWORK_COURSE_pg._138
                 }
             }
 
-            Console.WriteLine("Duplicates identified");
+            IEnumerable<string> duplicates = REList.GroupBy(x => x)
+                                              .Where(global => global.Count() > 1)
+                                              .Select(x => x.Key);
+            Console.WriteLine("Duplicate items are: " + String.Join(",", duplicates));
+            Console.ReadLine();
 
-
-
-            List<string> duplicated = new List<string>();
-
-            foreach (string item in REList)
-            {
-                if (!duplicated.Contains(item))
-                {
-                    duplicated.Add(item);
-                    Console.WriteLine(item);
-                }
-                else
-                {
-                    Console.WriteLine(item);
-                }
-            }
-
-                     Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
