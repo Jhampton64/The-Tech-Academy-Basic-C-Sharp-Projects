@@ -8,36 +8,32 @@ namespace C.NET_FRAMEWORK_COURSE_pg._156
 {
     class Program
     {
-        static void Number(int num1, int num2)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a Whole Number.");
-            int inputNum = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(inputNum + num1);
+            Optional_Parameters storNumbers = new Optional_Parameters(); 
+            Console.WriteLine("Enter a number: ");
+            int input1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Please enter a Whole Number.");
-            string inputNum2 = Convert.ToString(Console.ReadLine());
-            if(inputNum2 == string.Empty)
+            Console.WriteLine("Enter a second number (optional):  or press ENTER to skip and see your total.\n");
+
+            int total;  
+            var validInput = int.TryParse(Console.ReadLine(), out int input2); 
+
+
+            if (validInput)
             {
-                Console.WriteLine("No number, No problem!");
-                Console.ReadLine();
-
+                total = Optional_Parameters.twoParameters(input1, input2);
             }
             else
             {
-                int x = Int32.Parse(inputNum2);
-                Console.WriteLine(x + num2);
-               
+                total = Optional_Parameters.twoParameters(input1);
             }
 
+            Console.WriteLine("Your total is: " + total);
             Console.ReadLine();
         }
-
-        static void Main(string[] args)
-        {
-            Number(10, 5);
-            
-        }
-
     }
+
 }
+
 
