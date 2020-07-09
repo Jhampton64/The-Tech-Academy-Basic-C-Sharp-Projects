@@ -12,7 +12,7 @@ namespace C.NET_FRAMEWORK_COURSE_pg._157
         static void Main(string[] args)
         {
             Class1 Numbers1 = new Class1();
-            Numbers1.Numbers2(10, 20);
+            Numbers1.Numbers2(num1:10, num2:20);
         }
     }
 }

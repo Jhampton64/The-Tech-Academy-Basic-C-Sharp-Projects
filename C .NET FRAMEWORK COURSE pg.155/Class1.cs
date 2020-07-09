@@ -8,24 +8,25 @@ namespace C.NET_FRAMEWORK_COURSE_pg._155
 {
     class Class1
     {
-        
-        
-            public int Classmath1(int addingNumber)
-            {
-                int total = addingNumber + 10;
-                return total;
-            }
-            public int Classmath2(int subtractionNumber)
-            {
-                int total = subtractionNumber - 10;
-                return total;
-            }
-            public int Classmath3(int timesNumber)
-            {
-                int total = timesNumber * 10;
-                return total;
-            }
 
-        
+
+        public int Sum(int num1)
+        {
+            var Total = num1 + 25;
+            return Total;
+        }
+        public int Difference(decimal num1)
+        {
+            var Total = num1 - 8;
+            return Convert.ToInt32(Total);
+        }
+        public int Product(string num1)
+        {
+            var Total = Convert.ToInt32(num1) * 10;
+            return Total;
+        }
+
+
+
     }
 }

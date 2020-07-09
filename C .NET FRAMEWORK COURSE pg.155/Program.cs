@@ -10,16 +10,17 @@ namespace C.NET_FRAMEWORK_COURSE_pg._155
     {
         static void Main(string[] args)
         {
-            Class1 math = new Class1();
-            Console.WriteLine("Please enter a number: ");
-            int input = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Your number enter plus 10 = " + math.Classmath1(input)); 
-            Console.WriteLine("Your number enter subtract 10 = " + math.Classmath2(input)); 
-            Console.WriteLine("Your number enter times 10 = " + math.Classmath3(input));
-            Console.ReadLine();
-
-
+            int a = 12;
+            decimal b = 9.9m;
+            string c = "13";
+            int total;
+           Class1 n = new Class1();
+            total = n.Sum(a);
+            Console.WriteLine("The sum of " + a + " and 25 is: " + total);
+            total = n.Difference(b);
+            Console.WriteLine("The difference of " + b + " and 8 is: " + total);
+            total = n.Product(c);
+            Console.WriteLine("The product of " + c + " and 10 is: " + total);
             Console.ReadLine();
         }
 
